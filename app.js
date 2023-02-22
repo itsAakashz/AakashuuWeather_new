@@ -12,9 +12,9 @@ app.get('/', (req, res) => {
 })
 
 //weather page
-app.get('/Weather', (req, res) => {
-  res.send('Weather page')
-})
+//app.get('/Weather', (req, res) => {
+//  res.send('Weather page')
+//})
 
     
 
