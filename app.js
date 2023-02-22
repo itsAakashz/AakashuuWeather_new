@@ -1,6 +1,7 @@
 const Express= require("express")
 const app=Express()
-const port = process.env.port || 80
+const port = process.env.PORT || 8000
+
 
 
 app.use(Express.static('views'))
