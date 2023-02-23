@@ -1,18 +1,31 @@
-
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <title>Weather Search</title>
     <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
+</head>
+
+<body>
     <div class="container">
-      <h1>Weather Search</h1>
-      <form>
-        <label for="location">Enter a location:</label>
-        <input type="text" id="location" name="location">
-        <button type="submit">Search</button>
-      </form>
+        <h1>Weather Search</h1>
+        <form>
+            <label for="location">Enter a location:</label>
+            <input type="text" id="location" name="location">
+            <button type="submit">Search</button>
+        </form>
+
+        <section class="container1">
+            <h2 id="Weather_data"> Weather Data</h2>
+            <h3 id="temp">Today temperature is </h3>
+            <h3 id="pressure"></h3>
+            <h3 id="humidity"></h3>
+            <h3 id="wind_speed"></h3>
+            <h3 id="description"></h3>
+
+        </section>
     </div>
-  </body>
+    <script src="index.js"></script>
+</body>
+
 </html>
